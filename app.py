@@ -1,5 +1,4 @@
 import json
-
 from flask import Flask, request, jsonify, render_template
 
 with open('partners.json') as f:
